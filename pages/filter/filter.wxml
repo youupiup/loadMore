@@ -1,0 +1,6 @@
+<view class="container">
+  <scroll-view class="container-body" scroll-y="true" scroll-top="{{scrolltop}}" bindscroll="scrollHandle" lower-threshold="50" bindscrolltolower="scrollLoading">
+      <view class="test-item" wx:for="{{testdata}}" wx:key="{{item.id}}">{{item.name}}</view>
+    <icon class="gototop {{scrolltop>200?'active':''}}" bindtap="goToTop" type="download" size="36" color="#999"></icon>
+  </scroll-view>
+</view>

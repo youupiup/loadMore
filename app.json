@@ -1,0 +1,12 @@
+{
+  "pages": [
+    "pages/filter/filter"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#999",
+    "navigationBarTitleText": "下拉刷新",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json"
+}
